@@ -1,6 +1,10 @@
+//timer oo
+//string s,ss,s2
+//int a111N,c
+//list a111
 a111.clear();
 FileUtil.listDir("/storage/emulated/0/Download/130_GongBenWuZang/skill/", a111);
-//skill資料夾的路徑
+//skill資料夾的目錄
 a111N = a111.size() - 1;
 oo = new TimerTask() {
 	@Override
